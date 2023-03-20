@@ -13,7 +13,8 @@
     "react-scripts": "3.4.1",
     "react-spring": "9.0.0-beta.34",
     "styled-components": "5.1.0",
-    "typescript": "3.8.3"
+    "typescript": "3.8.3",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@storybook/addon-actions": "5.3.18",
@@ -44,7 +45,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -62,5 +65,6 @@
     ]
   },
   "keywords": [],
-  "description": ""
+  "description": "",
+  "snyk": true
 }
