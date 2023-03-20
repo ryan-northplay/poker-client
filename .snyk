@@ -1,0 +1,58 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@storybook/react > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
+    - stylelint > lodash:
+        patched: '2023-03-20T23:56:24.389Z'
+    - '@storybook/addon-knobs > @storybook/components > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
+    - '@storybook/addon-knobs > react-color > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
+    - stylelint-processor-styled-components > @babel/traverse > lodash:
+        patched: '2023-03-20T23:56:24.389Z'
+    - '@storybook/react > babel-plugin-react-docgen > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
+    - stylelint > table > lodash:
+        patched: '2023-03-20T23:56:24.389Z'
+    - stylelint > postcss-reporter > lodash:
+        patched: '2023-03-20T23:56:24.389Z'
+    - '@storybook/react > @svgr/webpack > @babel/core > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
+    - stylelint-processor-styled-components > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-03-20T23:56:24.389Z'
+    - '@storybook/addon-knobs > @storybook/api > telejson > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
+    - '@storybook/addon-knobs > react-color > reactcss > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
+    - '@storybook/react > @storybook/core > babel-preset-minify > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
+    - '@storybook/react > @storybook/core > html-webpack-plugin > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
+    - '@storybook/react > @storybook/core > inquirer > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
+    - '@storybook/react > react-dev-utils > inquirer > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > lodash:
+        patched: '2023-03-20T23:56:24.389Z'
+    - '@storybook/react > @svgr/webpack > @babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2023-03-20T23:56:24.389Z'
+    - '@storybook/react > @storybook/addons > @storybook/api > telejson > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
+    - '@storybook/react > @storybook/core > babel-preset-minify > babel-plugin-minify-dead-code-elimination > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
+    - '@storybook/react > @storybook/core > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
+    - '@storybook/addon-knobs > react-select > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
+    - '@storybook/addon-actions > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
+    - '@storybook/addons > @storybook/api > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
+    - '@storybook/addon-links > @storybook/addons > @storybook/api > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2023-03-20T23:56:24.389Z'
